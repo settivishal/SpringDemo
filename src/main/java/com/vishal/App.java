@@ -19,7 +19,7 @@ public class App
 //        obj.setAge(18);
 //        System.out.println("age: " + obj.getAge());
 
-        Laptop lap = (Laptop) context.getBean("lap1");
-        lap.compile();
+//        Laptop lap = (Laptop) context.getBean("lap1");
+//        lap.compile();
     }
 }

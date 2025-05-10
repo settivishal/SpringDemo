@@ -2,24 +2,19 @@ package com.vishal;
 
 public class Dev {
 
-    private Laptop laptop;
+    private Computer comp;
 //    private int age;
 
     public Dev() {
         System.out.println("Dev constructor");
     }
 
-    public Dev(Laptop laptop) {
-        this.laptop = laptop;
-        System.out.println("Dev 1 constructor");
+    public Computer getComp() {
+        return comp;
     }
 
-    public Laptop getLaptop() {
-        return laptop;
-    }
-
-    public void setLaptop(Laptop laptop) {
-        this.laptop = laptop;
+    public void setComp(Computer comp) {
+        this.comp = comp;
     }
 
 //    public int getAge() {
@@ -32,5 +27,6 @@ public class Dev {
 
     public void build() {
         System.out.println("working on an awesome project!");
+        comp.compile();
     }
 }
