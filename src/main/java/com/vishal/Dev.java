@@ -9,6 +9,11 @@ public class Dev {
         System.out.println("Dev constructor");
     }
 
+    public Dev(int age) {
+        this.age = age;
+        System.out.println("Dev 1 constructor");
+    }
+
     public int getAge() {
         return age;
     }
