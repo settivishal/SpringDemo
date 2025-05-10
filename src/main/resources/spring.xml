@@ -16,6 +16,12 @@
 <!--        <property name="comp" ref="desk1" />-->
     </bean>
 
+<!--    <bean id="lap1" class="com.vishal.Laptop" primary="true">-->
+<!--    </bean>-->
+
+<!--    <bean id="desk1" class="com.vishal.Desktop">-->
+<!--    </bean>-->
+
     <bean id="comp" class="com.vishal.Laptop" primary="true">
     </bean>
 
